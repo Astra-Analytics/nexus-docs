@@ -17,6 +17,8 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
+    "sphinxawesome_theme.highlighting",
+    "sphinxawesome.highlighting",
 ]
 
 intersphinx_mapping = {
@@ -30,12 +32,6 @@ templates_path = ["_templates"]
 # -- Options for HTML output
 
 html_theme = "sphinxawesome_theme"
-extensions += [
-    "sphinxawesome.highlighting",
-    "sphinxawesome_theme.highlighting",
-    # To help you with the upgrade to version 5:
-    # "sphinxawesome.deprecated",
-]
 html_favicon = "favicon.ico"
 
 # -- Options for EPUB output
