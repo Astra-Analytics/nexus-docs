@@ -18,7 +18,6 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
     "sphinxawesome_theme.highlighting",
-    "sphinxawesome.highlighting",
 ]
 
 intersphinx_mapping = {
