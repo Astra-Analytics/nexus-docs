@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = "Lumache"
-copyright = "2021, Graziella"
-author = "Graziella"
+project = "NexusDB API Documentation"
+copyright = "2021, Astra Analytics, Inc."
+author = "Astra Analytics, Inc."
 
 release = "0.1"
 version = "0.1.0"
@@ -30,6 +30,7 @@ templates_path = ["_templates"]
 # -- Options for HTML output
 
 html_theme = "furo"
+html_favicon = "favicon.ico"
 
 # -- Options for EPUB output
 epub_show_urls = "footnote"
