@@ -73,7 +73,7 @@ theme_options = ThemeOptions(
     logo_light="_static/nexus.svg",
     logo_dark="_static/nexus-dark.svg",
     awesome_external_links=True,
-    main_nav_links={"Docs": "/index", "About": "/about"},
+    main_nav_links={"Docs": "/en/latest/index.html", "About": "/en/latest/about"},
     extra_header_link_icons={
         "repository on GitHub": {
             "link": "https://github.com/Astra-Analytics",
