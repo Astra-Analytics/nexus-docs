@@ -1,23 +1,54 @@
+.. meta::
+   :description: 20x faster to set up and 50% cheaper for comparable features, NexusDB lets you go from sign up to query in just a few minutes.
+   :twitter:description: 20x faster to set up and 50% cheaper for comparable features, NexusDB lets you go from sign up to query in just a few minutes.
+
 Welcome to NexusDB's documentation!
 ===================================
 
-**NexusDB** is building the bridge between public and private data. 
-*20x* faster to set up and *50%* cheaper for comparable features, it 
-allows creators from all backgrounds to get their app ready for 
-users in just a few minutes. Whether they need to store tables, 
-**graphs, embeddings, json objects, or blobs**, NexusDB is the solution.
+.. rst-class:: lead
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+   20x faster to set up and 50% cheaper for comparable features, NexusDB lets you go from sign up to query in just a few minutes.
 
-.. note::
+----
 
-   This project is under active development.
+This is the documentation for version |current| of |product|.
 
-Contents
---------
+Get started
+-----------
 
-.. toctree::
+If you want to get coding right away, start here:
 
-   usage
-   api
+   .. code-block:: sh
+
+      pip install nexus-python
+
+   .. seealso::
+
+      :doc:`tutorial/quickstart`
+
+Explore
+-------
+
+.. tab-set::
+
+   .. tab-item:: Tutorial
+
+      Learn how to use NexusDB with our step-by-step tutorial.
+
+      .. toctree::
+         :caption: Tutorial
+         :titlesonly:
+
+         tutorial/quickstart
+         tutorial/create
+
+   .. tab-item:: FAQ
+
+      Get answers to common questions and issues.
+
+      .. toctree::
+         :caption: FAQ
+         :titlesonly:
+
+         faq/relation/index
+         faq/shared/index
