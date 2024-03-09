@@ -1,6 +1,11 @@
 Create a relation
 =================
 
+Let's take a closer look at the `create` method. This method is used to create a new relation in the database.
+
+.. note::
+    When using the API directly, your HTTP request must contain an Api-Key header that specifies your NexusDB API key.
+    
 .. tab-set-code::
     .. code-block:: python
 
@@ -11,11 +16,13 @@ Create a relation
         ]
         create_response = nexus_db.create(relation_name, columns)
 
-    .. code-block:: bash
+    .. code-block:: shell
+
+        NEXUSDB_API_KEY = "YOUR_API_KEY"
 
         curl -X POST https://api.nexusdb.io/query \
         -H "Content-Type: application/json" \
-        -H "API-Key: your-api-key" \
+        -H "API-Key: $NEXUSDB_API_KEY" \
         -d '{
         "query_type": "Create",
         "relation_name": "example_relation",
