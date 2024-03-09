@@ -4,10 +4,10 @@ Create a relation
 Let's take a closer look at the `create` method. This method is used to create a new relation in the database.
 
 .. note::
-    When using the API directly, your HTTP request must contain an Api-Key header that specifies your NexusDB API key.
-    
+    When using the API directly, your HTTP request must contain an `Api-Key` header that specifies your NexusDB API key.
+
 .. tab-set-code::
-    .. code-block:: python
+    .. code-block:: python 
 
         relation_name = "example_relation"
         columns = [
