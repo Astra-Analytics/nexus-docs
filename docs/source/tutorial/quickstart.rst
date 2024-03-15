@@ -35,8 +35,8 @@ Then, you can use the package to interact with the Nexus API:
    print("Insert data response:", insert_response)
 
    # Step 3: Delete one line of data based on a primary key
-   primary_keys = {"id": 1}
-   delete_response = nexus_db.delete(relation_name, primary_keys)
+   condition = "id = 1"
+   delete_response = nexus_db.delete(relation_name, condition)
    print("Delete data response:", delete_response)
 
    # Optional: Lookup to verify deletion
