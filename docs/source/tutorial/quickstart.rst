@@ -34,7 +34,7 @@ Then, you can use the package to interact with the Nexus API:
    insert_response = nexus_db.insert(relation_name, fields, values)
    print("Insert data response:", insert_response)
 
-   # Step 3: Delete one line of data based on a primary key
+   # Step 3: Delete one line of data where condition is met
    condition = "id = 1"
    delete_response = nexus_db.delete(relation_name, condition)
    print("Delete data response:", delete_response)
