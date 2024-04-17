@@ -41,6 +41,8 @@ Explore
 
          tutorial/quickstart
          tutorial/create
+         tutorial/add/index
+         tutorial/search/index
 
    .. tab-item:: FAQ
 
